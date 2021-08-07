@@ -1,0 +1,87 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Carousel /> Should render the carousel with default layout fixed 1`] = `
+.c0 {
+  margin: auto;
+  max-width: 1200px;
+}
+
+.c0 img {
+  margin: auto;
+  max-width: 100%;
+}
+
+<div
+  class="c0"
+  data-testid="carousel-banner-fixed"
+>
+  <div
+    class="react-multi-carousel-list  "
+  >
+    <ul
+      class="react-multi-carousel-track "
+      style="transition: none; overflow: unset; transform: translate3d(0px,0,0);"
+    />
+  </div>
+</div>
+`;
+
+exports[`<Carousel /> Should render the corousel with layout fluid 1`] = `
+.c0 {
+  width: 100%;
+}
+
+.c0 .carousel-item {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c0 .carousel-item img {
+  margin: auto;
+  max-width: 100%;
+}
+
+<div
+  class="c0"
+  data-testid="carousel-banner-fluid"
+>
+  <div
+    class="react-multi-carousel-list  "
+  >
+    <ul
+      class="react-multi-carousel-track "
+      style="transition: none; overflow: unset; transform: translate3d(0px,0,0);"
+    />
+  </div>
+</div>
+`;
+
+exports[`<CarouselItem /> Should handle an image without  source url 1`] = `null`;
+
+exports[`<CarouselItem /> Should render a carousel Image Item with link 1`] = `
+<a
+  data-testid="carousel-link"
+  href="https://www.amazon.com/b/?_encoding=UTF8&node=23508887011&pf_rd_r=NGQQXRSZEX2BTSSXFMSE&pf_rd_p=b3367632-3703-47fc-9e4a-042ab9bd1208"
+>
+  <img
+    alt="banner"
+    data-testid="carousel-image"
+    src="https://m.media-amazon.com/images/I/61CiqVTRBEL._SX1500_.jpg"
+  />
+</a>
+`;
+
+exports[`<CarouselItem /> Should render a carousel Image Item without link 1`] = `
+<img
+  alt="banner"
+  data-testid="carousel-image"
+  src="https://m.media-amazon.com/images/I/61CiqVTRBEL._SX1500_.jpg"
+/>
+`;

@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Hero /> Should render a image whithout link when no Href is provided 1`] = `
+<img
+  alt="banner 1"
+  data-testid="hero-content-1"
+  src=""
+/>
+`;
+
+exports[`<Hero /> Should render a message when no Image URL is provided 1`] = `
+<p
+  data-testid="image-url-not-provided-1"
+>
+  Only banners with imageUrl attribute are supported: 
+  1
+</p>
+`;
+
+exports[`<Hero /> Should render the Hero 1`] = `
+.c0 {
+  margin: auto;
+  max-width: 1200px;
+}
+
+.c0 img {
+  max-width: 100%;
+}
+
+@media (max-width:960px) {
+  .c0 {
+    max-width: 100%;
+  }
+}
+
+<figure
+  class="c0"
+  data-testid="hero-banner-1"
+>
+  <a
+    href="https://www.amazon.com/b/?_encoding=UTF8&node=23508887011&pf_rd_r=NMDG71DKN5XRWHGVWCQ6&pf_rd_p=b3367632-3703-47fc-9e4a-042ab9bd1208"
+  >
+    <img
+      alt="banner 1"
+      data-testid="hero-content-1"
+      src="https://m.media-amazon.com/images/I/61CiqVTRBEL._SX1500_.jpg"
+    />
+  </a>
+</figure>
+`;
