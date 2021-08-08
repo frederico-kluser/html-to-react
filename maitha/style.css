@@ -1,0 +1,50 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+div {
+  box-sizing: border-box;
+}
+
+img {
+  width: 200px;
+}
+
+.circle {
+  border-radius: 50%;
+  height: 200px;
+  left: 0px;
+  overflow: hidden;
+  position: absolute;
+  top: 0px;
+  width: 200px;
+}
+
+:is(.circle-1, .circle-2){
+  border-radius: 50%;
+  height: 100%;
+  left: 0px;
+  overflow: hidden;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  transition: 1s left;
+}
+
+.circle-2 {
+  left: 76px;
+}
+
+:is(.circle-1, .circle-2) div {
+  height: calc(100% / 7);
+  width: 100%;
+}
+
+.bg-black {
+  background-color: black;
+}
+
+.bg-white {
+  background-color: white;
+}

@@ -32,20 +32,20 @@ export const data: dataInterface = {
     header: {
       logo: {
         src: './img/logos/armani.svg',
-        width: 225
+        width: 225,
       },
       nav: [
         {
           background: 'lightgreen',
           borderBottom: true,
-          height: 32
+          height: 32,
         },
         {
           background: 'lightcoral',
-          height: 57
-        }
-      ]
-    }
+          height: 57,
+        },
+      ],
+    },
   },
   pages: {
     home: {
@@ -55,40 +55,40 @@ export const data: dataInterface = {
           name: 'header',
           logo: {
             src: './img/logos/armani.svg',
-            width: 500
-          }
-        }
-      ]
+            width: 500,
+          },
+        },
+      ],
     },
     about: {
       components: [
         {
           name: 'header',
-          logo: { src: './img/logos/ifc-logo.svg', width: 300 }
-        }
-      ]
+          logo: { src: './img/logos/ifc-logo.svg', width: 300 },
+        },
+      ],
     },
     card: {
-      components: [{ name: 'header' }]
+      components: [{ name: 'header' }],
     },
     login: {
       components: [
         {
           name: 'header',
-          logo: { src: './img/logos/armani.svg', width: 700 }
-        }
-      ]
+          logo: { src: './img/logos/armani.svg', width: 700 },
+        },
+      ],
     },
     info: {
       components: [
         { name: 'header' },
         {
           name: 'header',
-          logo: { src: './img/logos/ifc-logo.svg', width: 300 }
-        }
-      ]
-    }
-  }
+          logo: { src: './img/logos/ifc-logo.svg', width: 300 },
+        },
+      ],
+    },
+  },
 };
 
 export default data;

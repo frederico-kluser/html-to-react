@@ -1,9 +1,27 @@
 {
-	"node": "element",
-	"tag": "body",
-	"child": [
-		{ "node": "text", "text": "\n    " },
-		{ "node": "element", "tag": "div", "attr": { "class": "abc" }, "child": [{ "node": "text", "text": "sss" }] }, 
-		{ "node": "text", "text": "\n  " }
-	]
+  "node": "element",
+  "tag": "body",
+  "child": [
+    {
+      "node": "text",
+      "text": "\n    "
+    },
+    {
+      "node": "element",
+      "tag": "div",
+      "attr": {
+        "class": "abc"
+      },
+      "child": [
+        {
+          "node": "text",
+          "text": "sss"
+        }
+      ]
+    },
+    {
+      "node": "text",
+      "text": "\n  "
+    }
+  ]
 }
